@@ -4,11 +4,11 @@ import org.junit.Test;
 
 public class Question2Test {
 	
-	//This is a test, test class.
-
-//	@Test
-//	public void test() {
-//		fail("Not yet implemented");
-//	}
+	private Question2 tester;
+	
+	@Test
+	public void testDivide() {
+		assertTrue(tester.divide(7,5)==1.4);
+	}
 
 }
